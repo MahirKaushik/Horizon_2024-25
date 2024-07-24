@@ -4,9 +4,9 @@
 
 @font-face {
     font-family: "TiffanyStd";
-    src: url("/src/Fonts/tiffany.url") format("url");
+    src: url("/src/Fonts/tiff.woff2") format("woff2");
 }
 
 .font-main {
-    font-family: "TiffanyStd", sans-serif;
+    font-family: "TiffanyStd";
 }

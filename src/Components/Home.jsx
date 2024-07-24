@@ -4,7 +4,7 @@ function Home() {
     return (
         <div className="h-screen w-full">
             <div className="h-1/3 w-full bg-[#fefbec] flex justify-center items-center">
-                <p className="font-main font-extrabold text-9xl">HORIZON'24</p>
+                <p className="font-main text-[25vh]">HORIZON'24</p>
             </div>
 
             
