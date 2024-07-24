@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "TiffanyStd";
-    src: url("/Fonts/TiffanyStd") format("opentype");
+    src: url("/src/Fonts/tiffany.url") format("url");
 }
 
 .font-main {
