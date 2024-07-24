@@ -1,20 +1,15 @@
-import React from 'react';
-
-const Footer = () => {
+import React from "react";
+import Footer from "./footer";
+function App() {
   return (
-    <footer className="bg-gray-800 text-white py-4 px-4 flex justify-between items-center">
-      <div className="text-sm">
-        <p>
-          VIT University<br /><br />
-          Vellore, Tamil Nadu<br /><br />
-          India - 632014<br /><br />
-          iste@vit.ac.in<br /><br />
-          +91 83289 26213
-        </p>
-        <a href="https://vit.ac.in/index.html" className="hover:text-gray-400 transition duration-300 ease-in-out">Visit ISTE Main Website</a>
-      </div>
-    </footer>
+    <>
+      <h1 className="text-3xl text-blue-700 font-bold underline">
+        Hello world!
+      </h1>
+      
+      <Footer />
+    </>
   );
-};
+}
 
-export default Footer;
+export default App;
