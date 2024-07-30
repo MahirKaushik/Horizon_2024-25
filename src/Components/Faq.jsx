@@ -1,11 +1,13 @@
 import React from "react";
 
-function faq(){
+function Faq(){
     return(
-        <div>
-            <h1>Hi</h1>
-        </div>
+        <div className="bg-customColor absolute w-custom-width h-custom-height top-custom-top left-custom-left p-custom-padding gap-custom-gap border-t-custom-border flex items-center justify-center">
+        <div className="text-black text-10xl flex animate-marquee font-main">
+        HORIZON'24
+         </div>
+</div>
     )
 }
 
-export default faq;
+export default Faq;
