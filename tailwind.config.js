@@ -10,7 +10,8 @@ export default {
         "custom":"#FEFBEC",
         "technica":"#B5DDC2",
         "about":"#1E1E1E",
-        "button":"#F2C6AB"
+        "button":"#F2C6AB",
+        "button-click":"#F0B590"
       },
       screens:{
         "custom":"768px"
