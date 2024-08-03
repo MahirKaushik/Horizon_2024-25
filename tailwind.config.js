@@ -13,13 +13,18 @@ export default {
         "button":"#F2C6AB"
       },
       screens:{
-        "custom":"640px"
+        "custom":"768px"
       },
       width:{
-        'clamp-24vw-24vw-30vw': 'clamp(24vw, 24vw, 30vw)'
+        'clamp-24vw-24vw-30vw': 'clamp(24vw, 24vw, 30vw)',
+        'clamp-85vw-85vw-85vw':'clamp(85vw, 85vw, 85vw)'
       },
       height:{
-        'clamp-24vw-25vw-40vw': 'clamp(24vw, 25vw, 40vw)'
+        'clamp-24vw-25vw-40vw': 'clamp(24vw, 25vw, 40vw)',
+        'clamp-40vw-55vw-60vw':'clamp(40vw,55vw,60vw)'
+      },
+      borderRadius:{
+        'tiny':'1rem'
       },
     },
   },
