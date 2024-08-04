@@ -5,6 +5,7 @@ import { IoLogoGithub } from "react-icons/io5";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaHeart } from 'react-icons/fa';
+import cut from "./cut.png";
 
 function Footer() {
   const handleScrollToMainWebsite = () => {
@@ -15,7 +16,7 @@ function Footer() {
   };
 
   return (
-    <footer className="w-full p-6 bg-[#B5DDC2] text-black border-t-2 border-black flex flex-col">
+    <footer className="w-full bg-[#B5DDC2] text-black border-t-2 border-black flex flex-col">
       {/* For small screens */}
       <div className="block md:hidden relative">
         <div className="text-xl mb-4">
@@ -24,7 +25,7 @@ function Footer() {
           <div>India - 632014</div>
         </div>
         <div className="underline mb-2"><a href="mailto:iste@vit.ac.in">iste@vit.ac.in</a></div>
-            <div className="mb-16">+91 83289 26213</div>
+        <div className="mb-16">+91 83289 26213</div>
 
         <div className="flex justify-between items-center mb-8">
           <span
@@ -113,6 +114,17 @@ function Footer() {
         </div>
         <div className="w-full h-0.5 bg-black mt-4"></div>
       </div>
+
+
+{/* Image Section */}
+<div className="relative w-full flex justify-center bg-[#B5DDC2] mt-3">
+  <img 
+    src={cut} 
+    alt="ISTE Logo" 
+    className="w-full h-auto object-cover lg:object-contain" 
+  />
+  <div className="absolute bottom-0 left-0 right-0 bg-black h-px"></div>
+</div>
     </footer>
   );
 }
