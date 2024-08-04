@@ -1,5 +1,5 @@
 import React from "react";
-import Faq from "./Components/faq";
+import Faq from "./Components/Faq";
 
 function App() {
   return (
