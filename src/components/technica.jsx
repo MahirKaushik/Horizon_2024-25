@@ -5,17 +5,17 @@ const Technica=({children})=>{
         <>
             <div className="marquee-container relative top-0 left-0 flex items-center justify-center px-2 py-1 sm:px-4 sm:py-2 place-content-center">
                 <div className="marquee-content whitespace-nowrap font-itc text-6xl md:text-7xl lg:text-9xl py-8 inline-flex">
-                    <img className="place-content-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[120px] lg:h-[130px] mx-5 md:mx-9 lg:mx-16"src="src/images/Tech2.png" />
+                    <img className="place-content-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[120px] lg:h-[130px] mx-5 md:mx-9 lg:mx-16"src="src/assets/Tech2.png" />
                     TECHNICA
-                    <img className="place-content-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[120px] lg:h-[130px] mx-5 md:mx-9 lg:mx-16"src="src/images/Tech2.png" />
+                    <img className="place-content-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[120px] lg:h-[130px] mx-5 md:mx-9 lg:mx-16"src="src/assets/Tech2.png" />
                     TECHNICA
-                    <img className="place-content-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[120px] lg:h-[130px] mx-5 md:mx-9 lg:mx-16"src="src/images/Tech2.png" />
+                    <img className="place-content-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[120px] lg:h-[130px] mx-5 md:mx-9 lg:mx-16"src="src/assets/Tech2.png" />
                     TECHNICA
-                    <img className="place-content-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[120px] lg:h-[130px] mx-5 md:mx-9 lg:mx-16"src="src/images/Tech2.png" />
+                    <img className="place-content-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[120px] lg:h-[130px] mx-5 md:mx-9 lg:mx-16"src="src/assets/Tech2.png" />
                     TECHNICA
-                    <img className="place-content-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[120px] lg:h-[130px] mx-5 md:mx-9 lg:mx-16"src="src/images/Tech2.png" />
+                    <img className="place-content-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[120px] lg:h-[130px] mx-5 md:mx-9 lg:mx-16"src="src/assets/Tech2.png" />
                     TECHNICA
-                    <img className="place-content-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[120px] lg:h-[130px] mx-5 md:mx-9 lg:mx-16"src="src/images/Tech2.png" />
+                    <img className="place-content-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[120px] lg:h-[130px] mx-5 md:mx-9 lg:mx-16"src="src/assets/Tech2.png" />
                 </div>
             </div>
             
