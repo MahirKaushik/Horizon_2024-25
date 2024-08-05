@@ -31,11 +31,11 @@ const FrameComponent1 = ({ className = "" }) => {
       className={`flex items-center justify-center min-h-screen ${className}`}
     >
       <section
-        className={`relative overflow-hidden w-full h-[238px] bg-[#b5ddc2] border-[#1e1e1e] border-[2px] border-solid`}
+        className={`relative overflow-hidden w-full h-[238px] bg-[#b5ddc2] border-[#1e1e1e] border-[1.8px] lg:border-[2px] border-solid`}
         style={{ zIndex: -1 }}
       >
         <div className="flex items-center whitespace-nowrap animate-slide">
-          <span className="inline-block uppercase text-[#1e1e1e] text-[198.4px] font-['ITC_Tiffany_Std'] mq450:text-[79px] mq767:text-[79px]">
+          <span className="inline-block uppercase text-[#1e1e1e] text-[198.4px] font-['ITC_Tiffany_Std'] mq450:text-[79px] lg:mq450:text-[79px]  mq767:text-[79px] lg:mq767:text-[73px]">
             ✦ HORIZON’24 ✦ HORIZON’24 ✦ HORIZON’24 ✦ HORIZON’24 ✦ HORIZON’24 ✦ HORIZON’24
           </span>
         </div>
