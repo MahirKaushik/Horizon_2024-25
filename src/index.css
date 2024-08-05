@@ -37,7 +37,7 @@
     @apply w-full overflow-hidden bg-black text-white  ;
   }
   
-  .marquee-content {
+.marquee-content {
     @apply animate-marquee;
     display:flex;
-  }
+}

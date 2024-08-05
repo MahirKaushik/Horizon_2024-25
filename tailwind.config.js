@@ -13,7 +13,7 @@ export default {
         },
       },
       animation: {
-        marquee: 'marquee 15s linear infinite',
+        marquee: 'marquee 30s linear infinite',
       },
       fontFamily:{
         itc:['ITC','sans-serif']
