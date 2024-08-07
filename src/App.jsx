@@ -1,7 +1,12 @@
-/* eslint-disable no-unused-vars */
-// eslint-disable-next-line no-unused-vars
+import React from "react";
+import Home from "./Components/Home"
+import About from "./Components/About"
 import Card from "./Components/Card";
 import Carousel from "./Components/Carousel";
+import MainWebsite from './mainwebsite';
+import Footer from './footer';
+
+import Navbar from "./Components/Navbar"
 
 
 const cardData = [
@@ -13,11 +18,6 @@ const cardData = [
   // Add more card data as needed
 ];
 
-import React from 'react';
-import MainWebsite from './mainwebsite';
-import Footer from './footer';
-
-import Navbar from "./component/Navbar"
 
 
 function App() {
@@ -28,6 +28,7 @@ function App() {
       <Navbar />
       </div>
       <div >
+      <Home />
       <MainWebsite />
       <Footer />
       </div>
