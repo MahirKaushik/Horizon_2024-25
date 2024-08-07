@@ -1,14 +1,28 @@
+import React from 'react';
+import MainWebsite from './mainwebsite';
+import Footer from './footer';
+
 import Navbar from "./component/Navbar"
 
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl text-blue-700 font-bold underline">
-        Hello world!
-      </h1>
+    <div>
+      <div className='flex flex-col gap-24'>
+      <div>
       <Navbar />
-    </>
+      </div>
+      <div >
+      <MainWebsite />
+      <Footer />
+      </div>
+      </div>
+      
+    </div>
+
+     
+      
+
   );
 }
 
