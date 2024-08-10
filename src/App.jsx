@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useRef } from 'react';
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Card from "./Components/Card";
@@ -7,6 +7,8 @@ import MainWebsite from "./mainwebsite";
 import Footer from "./footer";
 import Faq from "./Components/Faq";
 import Navbar from "./Components/Navbar";
+import Intro from './Components/Intro';
+import Hello from './Components/Hello';
 
 const cardData = [
   { title: "Card 1", description: "This is card 1", image: "url1" },
@@ -17,10 +19,36 @@ const cardData = [
   // Add more card data as needed
 ];
 
+
+
+
 function App() {
+  const [introFinished, setIntroFinished] = useState(false);
+  const [playAudio, setPlayAudio] = useState(false);
+  const audioRef = useRef(null);
+
+  const handleFinish = () => {
+    setIntroFinished(true);
+  };
+
+  const handlePlayAudio = (shouldPlay) => {
+    setPlayAudio(shouldPlay);
+    if (shouldPlay && audioRef.current) {
+      audioRef.current.play();
+    }
+  };
+
   return (
     <div>
-      <div className="flex flex-col gap-24">
+      {/* <audio ref={audioRef} loop preload="auto" src="/loading intro.mp3"></audio>
+      {!introFinished ? (
+        <Intro onFinish={handleFinish} onPlayAudio={handlePlayAudio} />
+      ) : (
+        <>
+
+        </>
+      )} */}
+                <div className="flex flex-col gap-24">
         <div>
           <Navbar />
         </div>
