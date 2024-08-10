@@ -9,6 +9,8 @@ import Faq from "./Components/Faq";
 import Navbar from "./Components/Navbar";
 import Intro from './Components/Intro';
 import Hello from './Components/Hello';
+import TeamSection from "./Components/TeamSection"
+
 
 const cardData = [
   { title: "Card 1", description: "This is card 1", image: "url1" },
@@ -69,6 +71,7 @@ function App() {
           
           <MainWebsite />
           <About/>
+          <TeamSection></TeamSection>
           <Faq />
           <Footer />
         </div>
