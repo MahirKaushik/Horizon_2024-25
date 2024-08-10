@@ -38,7 +38,9 @@ function App() {
               <Carousel cardData={cardData} />
             </div>
           </div>
+          
           <MainWebsite />
+          <About/>
           <Faq />
           <Footer />
         </div>

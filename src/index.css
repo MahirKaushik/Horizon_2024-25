@@ -906,3 +906,18 @@ button:focus-visible {
   .font-main {
     font-family: "ITC Tiffany W01 Regular";
   }
+
+
+  @font-face {
+    font-family: "ITC Tiffany W01 Regular";
+    src: url("https://db.onlinewebfonts.com/t/9b09d0e485b588d7a58a0202ceb8158d.eot");
+    src: url("https://db.onlinewebfonts.com/t/9b09d0e485b588d7a58a0202ceb8158d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/9b09d0e485b588d7a58a0202ceb8158d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/9b09d0e485b588d7a58a0202ceb8158d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/9b09d0e485b588d7a58a0202ceb8158d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/9b09d0e485b588d7a58a0202ceb8158d.svg#ITC Tiffany W01 Regular")format("svg");
+  }
+  
+  .font-main {
+    font-family: "ITC Tiffany W01 Regular";
+  }
