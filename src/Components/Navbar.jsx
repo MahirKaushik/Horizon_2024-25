@@ -6,10 +6,10 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="w-screen bg-[#B5DDC2] absolute top-0 ">
+    <div className="w-full bg-[#B5DDC2]   ">
       <nav className="font-normal">
-        <div className="flex flex-col md:flex-row md:justify-between items-center p-4">
-          <div className="flex items-center w-full md:w-auto">
+        <div className="w-full flex flex-col md:flex-row md:justify-between items-center p-4">
+          <div className="flex items-center w-full md:w-full">
 
       <svg width="48" height="51" viewBox="0 0 48 51" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M30.1953 17.0991H33.2456V5.12033L44.2221 9.77834V44.1293L47.1799 42.7684V7.43819L30.1953 0.200195V17.0991Z" fill="#1E1E1E"/>

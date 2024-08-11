@@ -23,7 +23,7 @@ function Home() {
 
             <div className="lg:hidden h-screen w-full overflow-hidden bg-[#b5ddc2]">
                 <div className="h-[16vh] md:h-[11vh] w-full bg-[#fefbec] flex justify-center items-center">
-                    <p className="font-main text-[14vw] md:text-[13vw]">HORIZON'24</p>
+                    <p className="font-main text-slate-800 text-[14vw] md:text-[13vw]">HORIZON'24</p>
                 </div>
                 <div className="w-full items-center h-[84vh] lg:border-t-black lg:border-b-black lg:border-2">
                     <div className="w-full h-full border-black relative">
