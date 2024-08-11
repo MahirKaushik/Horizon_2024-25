@@ -921,3 +921,64 @@ button:focus-visible {
   .font-main {
     font-family: "ITC Tiffany W01 Regular";
   }
+
+
+
+  @font-face{
+    src:url("./fonts/ITC Tiffany Std Demi.otf") format("opentype");
+    font-family:"ITC";
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("./fonts/ITC\ Tiffany\ Std\ Demi.otf");
+}
+.font-slogan{
+    font-family: "ITC",sans-serif;
+    font-weight:700;
+}
+.background-image{
+    background-image: url("./assets/Rectangle 5668.png");
+    background-size: cover;
+    background-position:center;
+    border-radius:1.25rem;
+    box-shadow:4px 4px 0px 0px #000;
+}
+@media (max-width: 768px) {
+    .background-image {
+        border-radius: 0.8rem;
+    }
+}
+.font-about{
+    font-family:"Poppins";
+    font-style:normal;
+}
+.bolder{
+    font-weight:700;
+    display:contents;
+}
+.responsive-image{
+    height: 26vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+@media(max-width:1024px){
+    .responsive-image{
+        height:20vh;
+        margin-left: 4vw;
+        margin-right:4vw;
+    }
+}
+@media (max-width: 640px) {
+    .responsive-image {
+      height:10vh;
+      margin-left: 2vw;
+      margin-right: 2vw;
+    }
+}
+@media (max-width: 768px) {
+    .responsive-image{
+        height:16vh;
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+}

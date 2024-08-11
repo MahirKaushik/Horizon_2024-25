@@ -10,7 +10,9 @@ import Navbar from "./Components/Navbar";
 import Intro from './Components/Intro';
 import Hello from './Components/Hello';
 import TeamSection from "./Components/TeamSection"
-
+import Slogan from "./Components/Slogan"
+import Technica from "./Components/Technica" 
+import Slider from "./Components/Slider";
 
 const cardData = [
   { title: "Card 1", description: "This is card 1", image: "url1" },
@@ -50,7 +52,9 @@ function App() {
 
         </>
       )} */}
-                <div className="flex flex-col gap-24">
+
+    
+      <div className="flex flex-col gap-24">
         <div>
           <Navbar />
         </div>
@@ -68,7 +72,7 @@ function App() {
               <Carousel cardData={cardData} />
             </div>
           </div>
-          
+          <Slider/>
           <MainWebsite />
           <About/>
           <TeamSection></TeamSection>
